@@ -1,5 +1,10 @@
-
-
+h3:hover {
+    color: #d9230f;
+    cursor: pointer;
+}
+p:hover {
+    
+}
 #nav_area {
     ul.nav {
         display: flex;
@@ -14,6 +19,8 @@
         }
     }
 }
+
+
 
 #footer_area {
     .footer {
@@ -47,6 +54,7 @@
        color: #444;
        cursor: pointer;
        padding: 10px;
+       margin: 10px;
        width: 100%;
        text-align: left;
        border: none;

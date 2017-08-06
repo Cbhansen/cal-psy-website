@@ -1,3 +1,4 @@
+// Accordian
 var accordion = document.getElementsByClassName("accordion");
 
 for ( i=0;i<accordion.length;i++) {
@@ -12,3 +13,4 @@ for ( i=0;i<accordion.length;i++) {
         }
     }
 }
+

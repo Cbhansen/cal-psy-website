@@ -1,3 +1,7 @@
+h3:hover {
+  color: #d9230f;
+  cursor: pointer; }
+
 #nav_area ul.nav {
   display: flex;
   justify-content: center;
@@ -27,6 +31,7 @@
   color: #444;
   cursor: pointer;
   padding: 10px;
+  margin: 10px;
   width: 100%;
   text-align: left;
   border: none;
