@@ -14,65 +14,145 @@
 
 <!-- const -->
 <section id="nav_area">
-    <ul class="nav">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="parenting.html">Parenting Styles</a></li>
-        <li><a href="effects.html">Effects of Parenting Styles</a></li>
-        <li><a href="misconceptions.html">Common Misconceptions</a></li>
-        <li><a href="info.html">Helpful Information</a></li>
-    </ul>
+    <nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">CAL</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="nav-collapse">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+            <li><a href="parenting.html">Parenting style types</a></li>
+            <li><a href="effects.html">Effects of parenting styles</a></li>
+            <li><a href="misconceptions.html">Common minsconceptions</a></li>
+            <li><a href="info.html">Helpful info|Resources</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Follow us <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+            </ul>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </nav>
 </section>
 
 <!-- body -->
 <section id="main_home">
     <div class="container">
         <div class="jumbotron text-center misc-jumbo">
-            <h1>Helpful Parenting Advice</h1>
+            <h1>Common Misconceptions</h1>
         </div>
 
-        <p id="main_para text-center">
-            <h1>What are the most common misconceptions?</h1>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque excepturi delectus ullam eius repudiandae dolorem, soluta, 
-            velit enim natus deserunt ea voluptates quasi, ducimus officia beatae corporis fugit sed molestias! 
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla earum saepe quis iusto ex est provident laborum perferendis 
-            minima impedit corrupti, iure voluptatibus cupiditate perspiciatis voluptates consequuntur, sint accusamus repellat?
-        </p>
+        <section id="main_para text-center">
+            <h1>About</h1>
+            Misconceptions are views and opinions that are incorrect because they are based on faulty thinking or understanding. 
+            Often times we tend to believe what we hear without questioning and will base our views and opinions solely on this. 
+            These misconceptions often lead parents to avoid healthy authoritative parenting styles for fear that their children will 
+            become disobedient or rebellious if given a balance between options and responsibility. Here are some common parenting style
+            misconceptions: 
 
-        <div class="row">
-            <div class="col-md-6">
-                <h3>Lorem Ipsum</h3>
-                    <p>These things are influenced by:
-                        Parents' attachment history, stress level, social
-                        support; Baby's temperament
+        <section>
+            <h3>Categories</h3>
+                <button class="btn accordion">Authoritarian Misconceptions</button>
+                <div class="panel animated fadeIn" style="display: block">
+                    <p>
+                        <strong>Myth: "Spare the rod, spoil the child"</strong><br>
+                        The saying “spare the rod, spoil the child” is an antiquated phrase that means if a parent does not discipline their child by hitting them 
+                        (with a rod or wooden stick), then that child will become spoiled. 
+                        On the contrary, research has shown that child abuse can lead to developmental problems such as mental health issues. A considerable
+                         amount of research on the topic has also shown that spanking predicts increased levels of aggression in children. Furthermore, 
+                         research has shown that children tend to imitate aggressive acts as seen in observational analysis such as 
+                         Albert Bandura's Bobo Doll study <strong>(Bandura)</strong>.
+                         <br>
                     </p>
-            </div>
-                <div class="col-md-6">
-                <h3>Lorem Ipsum</h3>
-                    <p>Outcomes of secure attachment
-                        Positive social skills
-                        Empathy; reading others’ behavior
-                        Initiating interactions
-                        Liked by peers, teachers
-                        Supportive future relationships
-                        Supportive with spouses
-                        Tend to have securely attached children
-                        Positive engagement with new people
-                        Resilience to stress
+                        <iframe style="float: left; padding: 10px" width="500" height="300" src="https://www.youtube.com/embed/128Ts5r9NRE" frameborder="0" allowfullscreen></iframe>
+                    <p>
+                        It is important to note that there is a difference between spanking and corporal punishment and/or child abuse. 
+                        Certain factors also seem to play a role in how children who are spanked will develop later in life. One of the most 
+                        important of these factors is the quality of parenting that is given. For example, children who experience positive 
+                        parenting such as positive displays of affection, emotional support, and positive verbal encouragement tend not to be 
+                        as affected by spanking as opposed to children who are raised in more harsh environments. (McKee et al.; 2007) 
+                        However, although research has shown different and often opposite outcomes on the effects of spanking, the most 
+                        important thing to remember is that child abuse can have extremely detrimental affects on children.
                     </p>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-12">
-                <h3>Summary</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore vero veniam animi, dolore exercitationem alias hic corporis, 
-                    modi quisquam eum iusto. Culpa excepturi eaque quis reiciendis, sapiente quisquam pariatur error?
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quis laudantium necessitatibus iure dicta magnam, 
-                    non distinctio sint cupiditate accusantium, at quos id vero doloribus cum nesciunt consequatur. Eius, cumque.
-                </p>
-            </div>
-        </div>
+                    <button class="btn accordion">Myth: Reasoning with a child will make them think they are in charge.</button>
+                <div class="panel animated fadeIn">
+                    <p>
+                        Many parents believe that they should not give their children a choice when deciding on simple tasks.
+                        This is not the case. It is important to give your children options because as a result they will have the 
+                        opportunity to learn how to negotiate, become self-reliant, develop self-discipline, develop social skills, 
+                        and increased self-esteem.
+                    </p>
+                    <p>
+                        If children are not provided with these opportunities, they may build resentment which can lead to behavior problems and 
+                        increase the odds of delinquency and even drug use later on. Remember it is important to keep a healthy balance; parents 
+                        should be flexible and willing to reason with their children when necessary. <strong>(Rudy and Grusec, 2001)</strong>
+                    </p>
+                </div>
+                </div>
+                <button class="btn accordion">Permissive Misconceptions</button>
+                <div class="panel animated fadeIn">
+                    <p>
+                        <strong>Myth: Parents shouldn’t tell their kids “no”</strong><br>
+                        Authoritarian parenting errs on the stricter side of parenting, involving rigid and demanding parenting.
+                        According to <a target="_blank" href="http://journals.sagepub.com/doi/pdf/10.1177/0272431691111004">Baumrind</a>, she describes these types of parents as "obedience- and status-oriented, and expect 
+                        their orders to be obeyed without explanation" (Baumrind 1991 p. 62). With respect to the first dimension of 
+                        parenting styles, they are low on the responsive scale by providing less affection, praise, and attention to 
+                        their child's individual needs. They also don't allow much negotiation or choice within the strict rule structure
+                        at is set in place. When their children are commit wrongdoing, they tend to punish their children by not displaying 
+                        affection. With the second dimension of parenting styles, they are very high on demandingness since expect their 
+                        rules to be followed without question; one could think of a drill sergeant as a model of what they'd be like.
+                    </p>
+                    <button class="btn accordion">Myth: Bribery is the most effective way to get your children to behave</button>
+                    <div class="panel animated fadeIn">
+                        <p>
+                            Bribery is not always the best way to get your child to behave. As mentioned, children need boundaries and limits to
+                            learn the proper developmental skills needed early on. Some parents fear that their children will grow to resent 
+                            them and so their actions my at times resemble those of a friend rather than a parent. Many parents will use bribery
+                            such as toys, gifts, and food as a means to get a child to behave, but this can have a drawback as children quickly
+                            learn they can control a situation when misbehaving in order to get what they want. 
+                            <strong>(Robinson et al., 1995; Baumrind, 1991)</strong>
+                        </p>
+                    </div>
+                </div>
+                <button class="btn accordion">Uninvoled Misconceptions</button>
+                <div class="panel animated fadeIn">
+                    <p>
+                        <strong>Myth: You'll spoil your child if you pick them up when they cry.</strong><br>
+                        You cannot spoil an infant. Responding to an infant cry is <strong>NOT</strong> a reinforcement for more crying. Infants use crying as a 
+                        form of communication to signal to their caregiver that they have a need. By refusing to soothe a child that is crying, 
+                        parents are not teaching independence, but rather will only teach their child anxiety and mistrust. In order for a child 
+                        to gain confidence, parents should respond quickly and consistently to the child's needs. Research shows that responding 
+                        to your child's needs with consistency and promptness is associated with a decline in the frequency and duration of infant 
+                        crying <strong>(Bell and Ainsworth)</strong>. Always respond to a crying infants needs and you should see a gradual decrease in crying from 
+                        birth to 12 months. After the child is about 6-12 months, you can pull back a bit and let the child begin to figure out 
+                        that they will be fine.
+                    </p>
+                    <button class="btn accordion">Myth: Children need to learn how to fend for themselves; Children need touph love</button>
+                    <div class="panel animated fadeIn">
+                        <p>
+                            Parents who believe their children need “tough love” may seldom show warmth towards their children. These parents 
+                            can often be cold and non-nurturing because they feel that children should learn to fend for themselves. 
+                            Unfortunately, this does not work as you cannot teach a dependent child independence. By being unresponsive to your
+                            child's needs, you are only teaching your child anxiety and mistrust. Your child will quickly learn that they 
+                            cannot rely on anyone for support when needed. <strong>(Bell and Ainsworth)</strong>
+                        </p>
+                    </div>
+                </div>
+        </section>
 
     </div> <!-- /container -->
 </section><!-- /main_home -->

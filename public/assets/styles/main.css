@@ -1,18 +1,12 @@
 h3:hover {
   color: #d9230f; }
 
-#nav_area ul.nav {
-  display: flex;
-  justify-content: center;
-  list-style: none; }
-  #nav_area ul.nav li {
-    margin: 5px; }
-    #nav_area ul.nav li a {
-      display: inline-block;
-      padding: 1em; }
-
 .jumbotron {
-  height: 350px; }
+  height: 300px; }
+
+.jumbotron h1 {
+  color: maroon;
+  text-shadow: 1px 1px 2px #333; }
 
 .home-jumbo {
   background: url("../images/couplewithbaby2.jpeg");
@@ -21,13 +15,13 @@ h3:hover {
   background-attachment: fixed; }
 
 .parenting-jumbo {
-  background: url("../images/kidwithmaps.jpeg");
+  background: url("../images/couplewithbaby.jpeg");
   background-position: bottom;
   background-size: cover;
   background-attachment: fixed; }
 
 .effects-jumbo {
-  background: url("../images/couplewithbaby.jpeg");
+  background: url("../images/dadsonbeach.jpeg");
   background-position: bottom;
   background-size: cover;
   background-attachment: fixed; }
@@ -58,7 +52,7 @@ h3:hover {
   margin: 20px;
   float: left; }
 
-.accordion {
+.accordion, button {
   background: #eee;
   color: #444;
   cursor: pointer;
@@ -69,10 +63,11 @@ h3:hover {
   border: none;
   outline: none;
   transition: .5s; }
-  .accordion:focus, .accordion:active {
-    outline: none; }
-  .accordion:hover {
-    background: #ddd; }
+  .accordion:focus, .accordion:active, button:focus, button:active {
+    outline: none;
+    color: black; }
+  .accordion:hover, button:hover {
+    color: black; }
 
 .panel {
   padding: 0 10px;
