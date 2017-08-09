@@ -11,6 +11,39 @@ h3:hover {
       display: inline-block;
       padding: 1em; }
 
+.jumbotron {
+  height: 350px; }
+
+.home-jumbo {
+  background: url("../images/couplewithbaby2.jpeg");
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.parenting-jumbo {
+  background: url("../images/kidwithmaps.jpeg");
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.effects-jumbo {
+  background: url("../images/couplewithbaby.jpeg");
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.info-jumbo {
+  background: url("../images/familypier.jpeg");
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.misc-jumbo {
+  background: url("../images/dadandkid.jpeg");
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed; }
+
 #footer_area .footer {
   list-style-type: none;
   display: flex;
