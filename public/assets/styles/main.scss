@@ -1,3 +1,6 @@
+h1 {
+    text-decoration: underline;
+}   
 
 h3:hover {
     color: #d9230f;
@@ -5,6 +8,9 @@ h3:hover {
 
 .jumbotron {
     height: 300px;
+    h1 {
+        text-decoration: none;
+    }
 }
 .jumbotron h1 {
     color: maroon;
@@ -93,4 +99,15 @@ h3:hover {
     }
 
 // Misconceptions 
+
+// Parenting
+
+#main_parenting {
+    img {
+        width: 450px;
+        height: auto;
+        border: 1px solid #ccc;
+        padding: 2px;
+    }
+}
 
