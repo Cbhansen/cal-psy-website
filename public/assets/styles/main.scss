@@ -1,9 +1,5 @@
 h3:hover {
     color: #d9230f;
-    cursor: pointer;
-}
-p:hover {
-    
 }
 #nav_area {
     ul.nav {
@@ -47,8 +43,6 @@ p:hover {
 }
 
 // Attachment 
-
-#main_parenting {
    .accordion {
        background: #eee;
        color: #444;
@@ -60,10 +54,13 @@ p:hover {
        border: none;
        outline: none;
        transition: .5s;
+       &:focus, &:active {
+           outline: none;
+       }
        &:hover {
            background: #ddd;
            .accordion.active {
-
+            
            }
        }
    }
@@ -72,4 +69,3 @@ p:hover {
         background: #fff;
         display: none;
     }
-}

@@ -1,6 +1,5 @@
 h3:hover {
-  color: #d9230f;
-  cursor: pointer; }
+  color: #d9230f; }
 
 #nav_area ul.nav {
   display: flex;
@@ -26,7 +25,7 @@ h3:hover {
   margin: 20px;
   float: left; }
 
-#main_parenting .accordion {
+.accordion {
   background: #eee;
   color: #444;
   cursor: pointer;
@@ -37,9 +36,12 @@ h3:hover {
   border: none;
   outline: none;
   transition: .5s; }
-  #main_parenting .accordion:hover {
+  .accordion:focus, .accordion:active {
+    outline: none; }
+  .accordion:hover {
     background: #ddd; }
-#main_parenting .panel {
+
+.panel {
   padding: 0 10px;
   background: #fff;
   display: none; }
